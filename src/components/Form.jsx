@@ -1,6 +1,5 @@
 import React from 'react'
-import doctor from '../assets/O68Z4K0-scaled-1.jpg';
-import styles,{layout} from '../style';
+import {layout} from '../style';
 const Form = () => {
   return (
     <section className={`${layout.section}`}>

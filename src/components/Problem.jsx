@@ -1,6 +1,5 @@
 import React from 'react'
 import { problems } from '../constants'
-import styles from '../style'
 const Problem = () => {
   return (
     <div className="relative bg-cover bg-center h-[600px]" style={{backgroundImage: "url('https://subhag.in/wp-content/uploads/2023/06/filip-mroz-767365-unsplash-scaled-1.jpg')"}}>

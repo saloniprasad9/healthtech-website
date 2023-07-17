@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='items-center mt-4'>
-          <img src={checkout} alt='checkout' className=''/>
+          <img src={checkout} alt='checkout'/>
         </div>
         <div className='items-center'>
           <p className='text-white font-normal'>
