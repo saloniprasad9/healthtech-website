@@ -9,7 +9,6 @@ import Benefits from './components/Benefits';
 import Feature from './components/Feature';
 import Androwash from './components/Androwash';
 import Demo from './components/Demo';
-import Form from './components/Form';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -25,7 +24,6 @@ const App = () => {
       <Feature/>
       <Androwash/>
       <Demo/>
-      {/* <Form/> */}
       <Footer/>
     </div>
   )
