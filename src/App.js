@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
+import Problem from './components/Problem';
+import Service from './components/Service';
+import Product from './components/Product';
+import Benefits from './components/Benefits';
+import Feature from './components/Feature';
+import Androwash from './components/Androwash';
+import Demo from './components/Demo';
+import Form from './components/Form';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex flex-col'>
+      <Header/>
+      <Navigation/>
+      <Hero/>
+      <Problem/>
+      <Service/>
+      <Benefits/>
+      <Product/>
+      <Feature/>
+      <Androwash/>
+      <Demo/>
+      {/* <Form/> */}
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
